@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#carouselExampleIndicators img {
+  filter: brightness(45%);
+}
+
+#cards {
+  margin-bottom: 40px;
+}
+
+.card-oradores:hover {
+  transition: 1.0s ease;
+  transform: scale(1.01);
+}
+
+.card-img-top {
+  height: 100%;
+  object-fit: cover;
+}
+
+#container-oradores {
+  margin-top: 20px;
+  width: 50%;
+}
+
+.carrusel {
+  padding-right: 100px;
+}
+
+.card-title1{
+  font-size: 40px;
+}
+
+.card-title1,
+.card-text1 {
+  color: white;
+}
+
+.btn-success-submit {
+  background-color: #82ce35;
+  color: white;
+  width: 100%;
+}
+
+.btn-success-submit:hover {
+  background-color: #5e9625;
+  color: white;
+  width: 100%;
+}
+
+.btn-outline-secondary {
+  border-color: white;
+  color: white;
+}
+
+.oradores {
+  text-align: center;
+  padding: 11px;
+}
+
+.honolulu {
+  display: flex;
+  gap: 1px;
+}
+
+.img-honolulu {
+  width: 50%;
+}
+
+.text-honolulu {
+  background-color: #3d3c3c;
+  width: 50%;
+  color: white;
+  text-align: justify;
+  padding: 11px;
+}
+
+.btn-warning,
+.btn-secondary,
+.btn-danger,
+.btn-info{
+  padding: 0px 2px;
+  font-weight: bold;
+}
+
+.btn-info{
+  color: white;
+}
+
+.btn-info:hover{
+  color: white;
+}
+
+.carousel-control-next, 
+.carousel-control-prev{
+  width: 8%;
+  
+}
+
+footer {
+  margin-top: 25px;
+  background-color: #05364d;
+}
+
+.navFooter a:hover {
+  background-color: #06435f;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* 2da parte */
+
+.categoria-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+
+.card-categoria {
+  text-align: center;
+}
+
+.card-text{
+  padding: 15px;
+}
+
+.card-title  {
+  font-size: 20px;
+  
+}
+
+.card-title-estudiante{
+  background-color: blue;
+  padding: 10px;
+  color:  white;
+}
+
+.card-title-trainee{
+  background-color: aqua;
+  padding: 10px;
+  color:  white;
+}
+
+.card-title-junior{
+  background-color: orange;
+  padding: 10px;
+  color:  white;
+}
+
+.card-porcentaje {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.card-estudiante {
+  border: 1px solid blue;
+  border-radius: 5px;
+  
+}
+
+.card-trainee {
+  border: 1px solid aqua; 
+  border-radius: 5px;
+}
+
+.card-junior {
+  border: 1px solid orange; 
+  border-radius: 5px;
+}
+
+.documentacion{
+  color: gray;
+  font-size: 13px;
+}
+
+.blue {
+  background-color: rgb(154, 194, 207);
+  background-color: #c4d4e4;
+  padding: 0.5rem;
+  width: 95%;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.green2 {
+  background-color: #96c93e;
+}
+
